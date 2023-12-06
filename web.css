@@ -32,6 +32,19 @@ h1{
    background-color: #ED9B18;
    border-color: #8D5E11;
 }
+.BGrange {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+#colorBox{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+}
+
 
 
 
