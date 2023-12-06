@@ -1,16 +1,14 @@
-@font-face {
-    font-family: 'Kanit';
-    src: url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-}
 
 
 body {background-color: rgb( 50,50,50);}
-span{font-family: 'Kanit';color: white;}
+*{font-family: 'consolas';color: white;}
 
 h1{
     color: rgb(45, 126, 252);
     text-align: center;
+    text-decoration: underline;
 }
+/* Button CSS */
 .Buttons {
     display: flex;
     justify-content: space-evenly;
@@ -19,20 +17,22 @@ h1{
     
 }
 .Buttons button{
-    border-radius: 50px;
-    padding: 45px 80px;
+    border-radius:80px;
+    padding: 36px 64px;
     margin: auto;
-    font-size: 35px;
+    font-size: 25px;
     transition-duration: 0.25s;
     background-color: #186aed;
     border-style: solid;
     border-width: 10px;
     border-color: #11408d;
+    cursor: pointer;
 }
 .Buttons button:hover{
    background-color: #ED9B18;
    border-color: #8D5E11;
 }
+/* Range CSS */
 .BGrange {
     display: flex;
     flex-direction: column;
@@ -41,12 +41,28 @@ h1{
 }
 
 #colorBox{
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     background-color: white;
 }
+.BGrange input{
+    -webkit-appearance: none;
+    width: 35%;
+    height: 35px;
+    border-radius: 70px;
+}
+.BGrange input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; 
+    cursor: pointer;
+  }
+.rangeR::-webkit-slider-thumb{background-color: #ff0000;}
+.rangeG::-webkit-slider-thumb{background-color: #00ff00;}
+.rangeB::-webkit-slider-thumb{background-color: #0000ff;}
 
-
-
+/* End of CSS */
 
 

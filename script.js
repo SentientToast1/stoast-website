@@ -1,7 +1,8 @@
+//button js
 function buttonPress(){
     window.location.href = "wip.html";
 }
-
+//slider js
 var Rslider = document.getElementById('redSlider');
 var Gslider = document.getElementById('greenSlider');
 var Bslider = document.getElementById('blueSlider');
@@ -24,3 +25,4 @@ function boxColorChanger(){
 Rslider.addEventListener('input', boxColorChanger);
 Gslider.addEventListener('input', boxColorChanger);
 Bslider.addEventListener('input', boxColorChanger);
+//end of js
