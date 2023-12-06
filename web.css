@@ -4,62 +4,10 @@
 }
 
 
-body {
-    background-color: rgb( 50,50,50) ;
-    color: rgb(25, 130, 200);
-    font-family: 'Kanit';
-    text-align: center;
-}
+body {background-color: rgb( 50,50,50) ;font-family: 'Kanit';}
 
-p{
-    color: #bdab08
-}
-
-@keyframes rainbow-text{
-    0% { color: red; }
-    14% { color: orange; }
-    28% { color: yellow; }
-    42% { color: green; }
-    57% { color: blue; }
-    71% { color: indigo; }
-    85% { color: violet; }
-    100% { color: red; }
-}
-
-#Rtext{
-    animation: rainbow-text 10s linear infinite;
-}
-
-#Fibonacci{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    
-}
-
-
-#three{
-    width: 65px;
-    height: 50px;
-    background-color: rgb(13, 201, 214);
-    color: rgb(53, 53, 53);
-    font-family: 'kanit';
-    font-size: 5px;
-    font-weight: bolder;
-    border-radius: 10px ;
-    border: 2.5px solid #ffffff;
-}
-#input{
-    height: 50px;
-    text-align: center;
-}
 h1{
-    background-clip: text;
-    text-decoration: underline;
-    letter-spacing: 5px;
-    color: #1ebfff
+    color: rgb(45, 126, 252)
 }
 
 
