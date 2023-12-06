@@ -5,7 +5,7 @@
 
 
 body {background-color: rgb( 50,50,50);}
-label{font-family: 'Kanit';color: white;}
+span{font-family: 'Kanit';color: white;}
 
 h1{
     color: rgb(45, 126, 252);
