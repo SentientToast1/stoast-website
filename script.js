@@ -34,10 +34,11 @@ var modCirc = document.getElementById("circle");
 function modCircClick() {
     modCirc.classList.toggle("circClicked");
     if(modCirc.classList.contains("circClicked")){
-        setTimeout(() => {modCirc.innerHTML = circText}, 200);
+        modCirc.innerHTML = "";
+        setTimeout(() => {modCirc.innerHTML = circText}, 300);
     }
     else {
-        modCirc.innerHTML = "";
+        modCirc.innerHTML = "<p>Circles!</p>";
     }
 }
 
