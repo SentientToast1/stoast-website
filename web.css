@@ -1,7 +1,10 @@
-
+@font-face {
+    font-family: "coolvetica";
+    src: url("coolvetica.otf");
+}
 
 body {background-color: rgb( 50,50,50);}
-*{font-family: 'consolas';color: white;}
+*{font-family: 'coolvetica';color: white;}
 
 h1{
     color: rgb(45, 126, 252);
