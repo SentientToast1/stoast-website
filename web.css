@@ -6,8 +6,16 @@
 body {background-color: rgb( 50,50,50);}
 *{font-family: 'coolvetica';color: white;}
 
-h1{
-    color: rgb(45, 126, 252);
+@keyframes rainbow {
+    0% {color: #b25da6;}
+    20% {color:#6688c3;}
+    40% {color:#48a56a;}
+    60% {color:#eaaf41;}
+    80% {color:#ce4a4a;}
+    100% {color:#b25da6;}
+  }
+.rainbowTitle{
+    animation: rainbow 2s linear infinite;
     text-align: center;
     text-decoration: underline;
 }
