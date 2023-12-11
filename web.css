@@ -65,13 +65,13 @@ h1{
 .rangeR::-webkit-slider-thumb{background-color: #ff0000;}
 .rangeG::-webkit-slider-thumb{background-color: #00ff00;}
 .rangeB::-webkit-slider-thumb{background-color: #0000ff;}
+
+/* Shape Container CSS */
 .shapeContainer{
     display: flex;
     justify-content: space-evenly;
     margin: auto 10% auto 10%;
 }
-
-/* Shape Container CSS */
 .origCircle{
 
     margin: 20px auto;
