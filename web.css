@@ -73,9 +73,9 @@ body {background-color: rgb( 50,50,50);}
     cursor: pointer;
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
   }
-.rangeR::-webkit-slider-thumb{background-color: #ff0000;}
-.rangeG::-webkit-slider-thumb{background-color: #00ff00;}
-.rangeB::-webkit-slider-thumb{background-color: #0000ff;}
+.rangeR::-webkit-slider-thumb{background-color: #dd0000;}
+.rangeG::-webkit-slider-thumb{background-color: #00dd00;}
+.rangeB::-webkit-slider-thumb{background-color: #0000dd;}
 
 /* Shape Container CSS */
 .shapeContainer{
