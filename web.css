@@ -125,8 +125,33 @@ body {background-color: rgb( 50,50,50);}
 
     
 }
+.links{
+    width: 25%;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: start;
+    background: #64646479;
+    column-gap: 0px;
+    
+    
 
-
+}
+#github {
+    padding: 0;
+    width: 95%;
+    height: fit-content;
+    margin:auto;
+    background-color: #7a7a7a;
+}
+#youtube{
+    padding: 0;
+    width: 95%;
+    height: fit-content;
+    margin:auto;
+    background-color: #7a7a7a;
+}
 
 /* End of CSS */
 
