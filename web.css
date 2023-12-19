@@ -65,7 +65,14 @@ body {background-color: rgb( 50,50,50);}
     background-color: #FFFFFF;
 }
 .BGrange input::-webkit-slider-thumb {
-    -webkit-appearance: none;
+    appearance: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; 
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  }
+  .BGrange input::-moz-range-thumb {
     appearance: none;
     width: 45px;
     height: 45px;
