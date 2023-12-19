@@ -72,17 +72,21 @@ body {background-color: rgb( 50,50,50);}
     cursor: pointer;
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
   }
-  .BGrange input::-moz-range-thumb {
-    appearance: none;
+  .BGrange input::-moz-range-thumb{
     width: 45px;
     height: 45px;
     border-radius: 50%; 
     cursor: pointer;
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
   }
+
 .rangeR::-webkit-slider-thumb{background-color: #dd0000;}
 .rangeG::-webkit-slider-thumb{background-color: #00dd00;}
 .rangeB::-webkit-slider-thumb{background-color: #0000dd;}
+.rangeR::-moz-range-thumb{background-color: #dd0000; border: 1px solid #dd0000}
+.rangeG::-moz-range-thumb{background-color: #00dd00; border: 1px solid #00dd00}
+.rangeB::-moz-range-thumb{background-color: #0000dd; border: 1px solid #0000dd}
 
 /* Shape Container CSS */
 .shapeContainer{
