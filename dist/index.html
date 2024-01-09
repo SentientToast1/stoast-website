@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+    <head><title>Stoast's Test Website</title> 
+        <link rel="icon" type="image/x-icon" href="/assets/icon-hM0FX57a.png">
+
+      <link rel="stylesheet" crossorigin href="/assets/index-Fqej1Pl7.css">
+    </head> 
+<body>
+    <h1 class="rainbowTitle">HTML Test Stuff</h1>
+    <div class="Buttons">
+        <button class="Buttons" id="buttonA" onclick="window.location.href='shader.html';">Shaders</button>
+        <button class="Buttons" id="buttonB" onclick="buttonPress()">Button 2</button>
+        <button class="Buttons" id="buttonC" onclick="buttonPress()">Button 3</button>
+    </div>
+    
+    <div class="BGrange">
+        <div id="colorBox"></div>
+        <label for="redSlider">Red(<span id="rv">0</span>):</label>
+        <input type="range" min="0" max="255" value="0" class="rangeR" id="redSlider">
+        <label for="greenSlider">Green(<span id="gv">0</span>):</label>
+        <input type="range" min="0" max="255" value="0" class="rangeG" id="greenSlider">
+        <label for="blueSlider">Blue(<span id="bv">0</span>):</label>
+        <input type="range" min="0" max="255" value="0" class="rangeB" id="blueSlider"> 
+    </div>
+
+    <div class="shapeContainer">
+        <div class="origCircle" id="circle" onclick="modCircClick()"><p>Circles!</p></div>
+        <div class="origSquare" id="square" onclick="modSquareClick()"><p>Squares!</p></div>
+    </div>
+
+    <div class="links">
+
+        <div id="github"><p align="center"><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" width="50" align="middle"><a href="https://www.github.com/sentienttoast1">Check out my github!</a></p></div>
+        <div id="youtube">
+            <p align="center"><img src="https://cdn-icons-png.flaticon.com/256/1384/1384060.png" alt="" width="50" align="middle"><a href="https://www.youtube.com/channel/UC7OKW-50EuDs-4cdBXQQ03Q">Check out my youtube!</a></p>
+        </div>
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
