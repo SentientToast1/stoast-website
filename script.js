@@ -2,10 +2,12 @@
 
 var circText = "<p>Circles are fundamental geometric shapes defined by all points lying at an equal distance from a common center. In mathematics, circles play a crucial role, often represented by a single parameter—the radius. They exhibit symmetry and simplicity, making them essential in various mathewmatical disciplines such as geometry, trigonometry, and calculus.</p>";
 var squareText = "<p>Squares are vital in math for simplicity and area calculations. In architecture, they offer stability and aesthetic appeal. They feature prominently in puzzles, digital imaging, computer science, and physics, showcasing their versatility and importance across various fields.</p>";
+
 //button js
 function buttonPress(){
     window.location.href = "wip.html";
 }
+
 //slider js
 var Rslider = document.getElementById('redSlider');
 var Gslider = document.getElementById('greenSlider');
