@@ -10,9 +10,23 @@
           }
         }
       </script>
-      <style>body{margin: 0;}</style>
+      <style>body{margin: 0;}
+      #Clock {
+        position: absolute;
+        top: 9vh;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display:block;
+        color: #cccccc;
+        font-size: 105px;
+        font-family: 'impact';
+        letter-spacing: 3px;
+      }
+      </style>
 </head>
 <body>
-    <script src="threejs.js" type="module"></script>
+  <div id="Clock">HH:MM</div>
+  <script src="threejs.js" type="module"></script>
 </body>
 </html>

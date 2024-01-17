@@ -2,7 +2,18 @@
 import * as THREE from 'three';
 //import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 
+function ClockUpdate(){
+    const time = new Date();
+    const h = time.getHours().toString().padStart(2, "0");
+    const m = time.getMinutes().toString().padStart(2, "0");
+    const ClockObject = document.getElementById("Clock");
+    ClockObject.textContent = `${h}:${m}`;
+}
 
+setInterval(ClockUpdate, 1000);
+
+
+//scene
 const scene =  new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75,window.innerWidth / window.innerHeight, 0.1 , 1000);
 
