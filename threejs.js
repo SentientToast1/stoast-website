@@ -1,6 +1,6 @@
 
 import * as THREE from 'three';
-import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+//import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 
 
 const scene =  new THREE.Scene();
@@ -23,11 +23,11 @@ const ambientLight = new THREE.AmbientLight(0xffffff);
 scene.add(ambientLight);
 
 
-const controls = new OrbitControls( camera, renderer.domElement );
+//const controls = new OrbitControls( camera, renderer.domElement );
 function animate() { 
     requestAnimationFrame( animate ); 
     renderer.render( scene, camera );
     Cube.rotation.y += 0.02;
-    controls.Update();
+    //controls.Update();
  } 
  animate();
